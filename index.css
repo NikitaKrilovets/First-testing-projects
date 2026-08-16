@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(172, 158, 200);
+}
+
+h1{
+    padding-left: 600px;
+    font-size: 50px;
+}
+
+.add{
+    font-size: 30px;
+    margin-left: 510px;
+    border: 3px solid black;
+    background-color: rgb(227, 220, 241);
+}
+
+.first-button{
+    font-size: 25px;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+.delete-button{
+    background-color: rgb(180, 121, 234);
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(59, 38, 38);
+}
+
+.task-text{
+    font-size: 40px;
+}
+
+.checkbox{
+    transform: scale(2.5);
+    margin: 10px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.task {
+    background-color: rgb(216, 168, 224);;
+    padding: 20px;
+    margin: 20px;
+}
+
+.back-tasks{
+    background-color: rgb(228, 183, 236);
+    border: 1px solid black;
+    margin: 20px;
+    padding-bottom: 30px;
+}
