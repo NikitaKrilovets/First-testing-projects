@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProductCard from "./components/ProductCard.jsx";
 
 function App(){
@@ -15,6 +15,9 @@ function App(){
 
 function SecondApp(){
     const [counter, setCounter] = useState(0);
+    useEffect(() => {
+        console.log(counter);
+    })
     return(
         <div>
             <h1>Счёт: {counter}</h1>
